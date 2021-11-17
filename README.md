@@ -17,17 +17,17 @@
 1拉源码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/ansonken/nvjdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://github.com/ansonken/nvjdcdocker.git /root/nolanjdc
 ```
 
 
 2 拉取基础镜像以后不需要拉取镜像了 如果需要拉取我会通知
 ```
-sudo docker pull nolanhzy/nvjdc:latest
+sudo docker pull ansonken/nvjdc:latest
 ```
 
 3 执行命令
