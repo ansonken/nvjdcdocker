@@ -49,7 +49,7 @@ mkdir -p  Config && cd Config
 
 
 ```
-wget -O Config.json  https://raw.githubusercontent.com/NolanHzy/nvjdc/main/Config.json
+wget -O Config.json  https://raw.githubusercontent.com/ansonken/nvjdc/main/Config.json
 ```
 国内请使用
  ```
@@ -87,7 +87,7 @@ cd  /root/nolanjdc
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)":/app \
 -v /etc/localtime:/etc/localtime:ro \
--it --privileged=true  nolanhzy/nvjdc:latest
+-it --privileged=true  ansonken/nvjdc:latest
 ```
 
 11查看 日志 
@@ -115,11 +115,11 @@ mv /root/nolanjdc /root/nolanjdcdb
 然后执行步骤一 拉取代码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/ansonken/nvjdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://github.com/ansonken/nvjdcdocker.git /root/nolanjdc
 ```
 
 
